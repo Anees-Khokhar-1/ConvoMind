@@ -1,16 +1,13 @@
-# Virtual environment
+# Virtual environments
 venv/
+.env/
 
-# Python cache
+# NLTK data
+legacy/nltk_data/
+
+# OS / temp
 __pycache__/
 *.pyc
 
-# Environment variables
-.env
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
+# Accidental binaries
+main
