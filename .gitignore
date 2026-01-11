@@ -1,59 +1,12 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
 # Virtual environment
 venv/
-ENV/
-env/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-*.egg
+# Python cache
+__pycache__/
+*.pyc
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# PyCharm / IntelliJ
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# VS Code
-.vscode/
-
-# TensorFlow / Keras models
-*.h5
-*.ckpt
-*.pb
-
-# NLTK data
-nltk_data/
+# Environment variables
+.env
 
 # Logs
 *.log
@@ -61,7 +14,3 @@ nltk_data/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Other
-*.sqlite3
-*.db
